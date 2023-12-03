@@ -1,0 +1,81 @@
+body {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(94, 97, 93, 0.9);
+    }
+.container {
+    background-color:rgba(94, 97, 93, 0.795);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 725px;
+    border-radius: 40px;
+    color: white;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        margin: 20px;
+        padding: 20px;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        align-self: center;
+    }
+input {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+#addTip {
+    background-color:#007506;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    }
+    
+#btn {
+    background-color: #990000;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    }
+#tip {
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    border-radius: 5px;
+}
+#showTotalAmountToPay {
+    display: flex;
+}
+#billSplit, #totalTip, #totalAmount {
+    font-family: 'Montserrat', sans-serif;
+    background-color: grey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+@media all and (max-width: 800px) {
+    .container {
+        width: 500px;
+        height: 625px;
+        }
+}
+@media all and (max-width: 500px) {
+    .container {
+        width: 400px;
+        height: 625px;
+        }
+}
+
